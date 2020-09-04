@@ -1,3 +1,4 @@
 wp-config.php
-wp-content/plugins/*
-wp-content/uploads/*
+wp-content/*
+wp-content/*
+wp-snapshots/*

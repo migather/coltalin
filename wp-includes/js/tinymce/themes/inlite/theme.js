@@ -4678,8 +4678,8 @@ var inlite = (function () {
   };
   var askAboutPrefix = function (editor, href) {
     return new global$12(function (resolve) {
-      editor.windowManager.confirm('The URL you entered seems to be an external link. Do you want to add the required http:// prefix?', function (result) {
-        var output = result === true ? 'http://' + href : href;
+      editor.windowManager.confirm('The URL you entered seems to be an external link. Do you want to add the required https:// prefix?', function (result) {
+        var output = result === true ? 'https://' + href : href;
         resolve(output);
       });
     });
